@@ -28,7 +28,7 @@ public class SpecialEventsApplication {
         CorsConfiguration config = new CorsConfiguration();  
         config.setAllowCredentials(true); 
         // *** URL below needs to match the Vue client URL and port ***
-        config.setAllowedOrigins(Collections.singletonList("http://10.62.0.70:4200/archieve")); 
+        config.setAllowedOrigins(Collections.singletonList("http://..../archieve")); 
         config.setAllowedMethods(Collections.singletonList("*"));  
         config.setAllowedHeaders(Collections.singletonList("*"));  
         source.registerCorsConfiguration("/**", config);  
